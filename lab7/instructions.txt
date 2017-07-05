@@ -1,0 +1,5 @@
+Create a captive portal using eaphammer with the following flags:
+	
+	bssid=`ifconfig eth0 | grep ether | awk '{ print $2 }'`
+
+	./eaphammer -i wlan0 --bssid $bssid --essid FREE_WIFI --captive-portal
